@@ -7,7 +7,8 @@
     @endsection
  @section('content')
  <?php 
-    $conn = mysqli_connect("localhost", "bolsa", "123456", "bolsadet_job_boart"); 
+   // $conn = mysqli_connect("localhost", "bolsa", "123456", "bolsadet_job_boart"); 
+    $conn = mysqli_connect("localhost", "root", "", "bolsa"); 
     
 ?>
 <section class="banner_part">

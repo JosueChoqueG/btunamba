@@ -1,5 +1,5 @@
 <?php 
-    $conexion = mysqli_connect("localhost", "bolsa", "123456", "bolsadet_job_boart"); 
+    $conexion = mysqli_connect("localhost", "root", "", "bolsa"); 
     
 ?>
 <!DOCTYPE html>
