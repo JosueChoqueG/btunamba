@@ -7,7 +7,7 @@
     @endsection
  @section('content')
  <?php 
-   $conn = mysqli_connect("localhost", "bolsa", "123456", "bolsadet_job_boart"); 
+   $conn = mysqli_connect("172.16.60.110", "bolsa", "123456", "bolsadet_job_boart"); 
     //$conn = mysqli_connect("localhost", "root", "", "bolsa"); 
     
 ?>
